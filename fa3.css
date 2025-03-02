@@ -1,0 +1,50 @@
+body{
+    text-align:center;
+    background-size: 100%;
+    text-shadow: 0 0 10px rgba(145, 194, 226, 0.5, 0.9);
+    background-attachment: fixed;
+    color: white;
+    text-shadow: 0px 0px 8px black;
+    background-image: url('store.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+  .header {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3px;
+  }
+  .nav {
+    background-color: rgba(113, 194, 120, 0.75);
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3px;
+  }
+  .input {
+    background-color: rgba(113, 194, 120, 0.75);
+    border: none;
+    color: black;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3px;
+  }
+  .header:hover, .nav:hover, .input:hover {
+    transform: scale(1.02);
+    transition-property: border, background-color, transform;
+    transition-duration: .2s;
+  }
